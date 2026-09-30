@@ -24,20 +24,15 @@ const Rooms = () => {
         </Reveal>
       </Container>
 
-      {/* Horizontal snap row on mobile, grid from lg */}
-      <div className="container-x mt-14">
-        <div className="hide-scrollbar -mx-4 flex snap-x snap-mandatory gap-6 overflow-x-auto px-4 sm:-mx-6 sm:px-6 lg:mx-0 lg:grid lg:grid-cols-4 lg:overflow-visible lg:px-0">
+      <Container className="mt-14">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 lg:grid-cols-4">
           {rooms.map((room, i) => (
-            <Reveal
-              key={room.id}
-              delay={i * 0.08}
-              className="w-[82%] shrink-0 snap-start sm:w-[45%] lg:w-auto"
-            >
+            <Reveal key={room.id} delay={i * 0.08} className="h-full">
               <RoomCard room={room} />
             </Reveal>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 };
