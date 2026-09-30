@@ -1,0 +1,13 @@
+export { default as Hero } from "./Hero";
+export { default as BookingBar } from "./BookingBar";
+export { default as About } from "./About";
+export { default as Rooms } from "./Rooms";
+export { default as RoomCard } from "./RoomCard";
+export { default as Amenities } from "./Amenities";
+export { default as Experiences } from "./Experiences";
+export { default as Offers } from "./Offers";
+export { default as OfferCard } from "./OfferCard";
+export { default as Gallery } from "./Gallery";
+export { default as Testimonials } from "./Testimonials";
+export { default as Location } from "./Location";
+export { default as Newsletter } from "./Newsletter";
