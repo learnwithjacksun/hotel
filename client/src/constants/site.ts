@@ -4,8 +4,8 @@ export const site = {
   tagline: "A quiet kind of luxury",
   description:
     "An intimate luxury retreat on the Calabar waterfront, where timeless design, warm Cross River hospitality and the calm of the river come together.",
-  phone: "+234 902 639 8293",
-  phoneLink: "+2349026398293",
+  phone: "+234 813 741 1338",
+  phoneLink: "+2348137411338",
   email: "reservations@portviewhotel.com",
   address: {
     line1: "18 Marina Road, Calabar South",
